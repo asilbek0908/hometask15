@@ -215,8 +215,24 @@ a {
 
 .box-3 {
     transition: all 0.7s ease-in-out;
+    
 }
 
 .box-3:hover {
     transform: scale(1.1, 1.1);
 }
+
+@media only screen and(max-width: 768px) {
+   .container {
+    width: 92%;
+    }
+    
+    .head-1 {
+        display: none;
+    }
+
+    .footer-socials {
+        text-align: end;
+    }
+}
+
